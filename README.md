@@ -225,7 +225,7 @@ Image Error: `Image source = {{uri:’...’}}` not displaying image on iOS Bund
 [navigation bars imported.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/navigation%20bars%20imported.png)<br/>
 [different navigator screens.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/different%20navigator%20screens.png)<br/>
 [contact list showed.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/contact%20list%20showed.png)<br/> 
-
+# Tags and Topics
 
 
 
