@@ -1,1 +1,2 @@
-# WhatsApp-2.0-App-UI
+# WhatsApp 2.0 App UI (Front-end-UI Only)
+A clone of the popular Realtime Chat mobile applications WhatsApp in React Native with WhatsApp UI frontend design. The UI contains a WhatsApp-alike main chat screen. Clicking on these `Chats` will be redirected to open a private chat room to allow the user to send messages to make conversations with other users. It contains a list of messages with styles and `Contacts` with users' statuses.
