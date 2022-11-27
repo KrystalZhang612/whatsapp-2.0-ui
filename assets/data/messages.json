@@ -1,0 +1,119 @@
+[
+    {
+        "id": "m13",
+        "text": "LIFE IS JUST PURELY WONDERFUL OUT HERE!",
+        "createdAt": "2022-10-03T14:53:00.000Z",
+        "user": {
+            "id": "u1",
+            "name": "Krystal"
+        }
+    },
+    {
+        "id": "m12",
+        "text": "I also have some exiting news! The director of Venom said we two can be watching the Venom3 premier as the very first audience!",
+        "createdAt": "2022-10-03T14:53:00.000Z",
+        "user": {
+            "id": "u1",
+            "name": "Krystal"
+        }
+    },
+    {
+        "id": "m11",
+        "text": "OMG YES! I love Kesha! She's the most adorable female singer ever! I need to go!",
+        "createdAt": "2022-10-03T14:53:00.000Z",
+        "user": {
+            "id": "u1",
+            "name": "Krystal"
+        }
+    },
+    {
+        "id": "m10",
+        "text": "Hey Kesha just called me to ask if you'd like to go to her concert tour at Goldengate park next week, she said she arranged you VIP seat.",
+        "createdAt": "2022-10-03T14:53:00.000Z",
+        "user": {
+            "id": "u2",
+            "name": "Scarlett"
+        }
+    },
+    {
+        "id": "m9",
+        "text": "Sure thing! But dont drink lotta beer, otherwise i might not be able to drive you home later on",
+        "createdAt": "2022-10-03T14:53:00.000Z",
+        "user": {
+            "id": "u2",
+            "name": "Scarlett"
+        }
+    },
+    {
+        "id": "m8",
+        "text": "Can we go to Andrew Garfield's house tonight watching World Cup???!! I'm so excited! ",
+        "createdAt": "2022-10-03T14:53:00.000Z",
+        "user": {
+            "id": "u1",
+            "name": "Krystal"
+        }
+    },
+    {
+        "id": "m7",
+        "text": "I did! She said she was glad that I have read her book and hope i like it!",
+        "createdAt": "2022-10-03T14:53:00.000Z",
+        "user": {
+            "id": "u1",
+            "name": "Krytal"
+        }
+    },
+    {
+        "id": "m6",
+        "text": "Sure Thing! Have fun! Also did you share your reading review of Constance Wu's new book with her?",
+        "createdAt": "2022-10-03T14:49:00.000Z",
+        "user": {
+            "id": "u2",
+            "name": "Scarlett"
+        }
+    },
+    {
+        "id": "m5",
+        "text": "Scarlett, Avatar2 movie is coming out, can I go with Harley and Ivy this Friday?",
+        "createdAt": "2022-10-03T14:51:00.000Z",
+        "user": {
+            "id": "u1",
+            "name": "Krystal"
+        }
+    },
+    {
+        "id": "m4",
+        "text": "It was amazing barbeques! And the Blake couple were so nice to me! We even sang some karaokes afterthat!",
+        "createdAt": "2022-10-03T14:50:00.000Z",
+        "user": {
+            "id": "u1",
+            "name": "Krystal"
+        }
+    },
+    {
+        "id": "m3",
+        "text": "btw, how was the barbeque diner with Blake and Ryan? Did they invite you to their luxury mansion?",
+        "createdAt": "2022-10-03T14:49:40.000Z",
+        "user": {
+            "id": "u2",
+            "name": "Scarlett"
+        }
+    },
+    {
+        "id": "m2",
+        "text": "That sounds great! I think you should definitely schedule for another appointment with Dr.Jason Yu, he really is a good therapist.",
+        "createdAt": "2022-10-03T14:49:00.000Z",
+        "user": {
+            "id": "u2",
+            "name": "Scarlett"
+        }
+    },
+    {
+        "id": "m1",
+        "text": "Hey Scarlett! Thank you so much!",
+        "createdAt": "2022-10-10T12:48:00.000Z",
+        "user": {
+            "id": "u1",
+            "name": "Krystal"
+        }
+    }
+]

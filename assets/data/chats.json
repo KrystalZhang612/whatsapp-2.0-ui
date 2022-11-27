@@ -1,0 +1,156 @@
+[
+    {
+        "id": "1",
+        "user": {
+            "id": "u2",
+            "name": "Scarlett",
+            "image": "https://raw.githubusercontent.com/KrystalZhang612/images-attachments-collection/main/scarlett.jpeg",
+            "status": "Hey there! Keep smiling!"
+        },
+        "lastMessage": {
+            "id": "m1",
+            "text": "Hey Krystal! How are you doing? Hope you are doing well! Everything will be alright! Love you babe!",
+            "createdAt": "2022-10-14T13:30:00.000Z"
+        }
+    },
+    {
+        "id": "2",
+        "user": {
+            "id": "u3",
+            "name": "Eddie Munson",
+            "image": "https://raw.githubusercontent.com/KrystalZhang612/images-attachments-collection/main/eddie.png",
+            "status": "DND TONITE!!!"
+        },
+        "lastMessage": {
+            "id": "m2",
+            "text": "Heyyy my fav girl! Are you ready to play some DND???!!!!",
+            "createdAt": "2022-10-14T10:48:00.000Z"
+        }
+    },
+    {
+        "id": "3",
+        "user": {
+            "id": "u4",
+            "name": "Constance Wu",
+            "image": "https://raw.githubusercontent.com/KrystalZhang612/images-attachments-collection/main/constance%20wu.png",
+            "status": "Check my commentary on McCurdy's new book I'm Glad My Mom Died on my personal podcast."
+        },
+        "lastMessage": {
+            "id": "m3",
+            "text": "Hi, baby girl. I am so glad you read my book! I hope you would like it!",
+            "createdAt": "2022-10-13T20:48:00.000Z"
+        }
+    },
+    {
+        "id": "4",
+        "user": {
+            "id": "u5",
+            "name": "Dr. Jason Yu",
+            "image": "https://raw.githubusercontent.com/KrystalZhang612/images-attachments-collection/main/jason%20yu.png",
+            "status": "My counselling appointments available Mon-Thur from 9-5. Contact me via email Please. Thank you for your understanding."
+        },
+        "lastMessage": {
+            "id": "m4",
+            "text": "Hello Krystal! Would you like to schedule for another counselling session?",
+            "createdAt": "2022-10-12T14:48:00.000Z"
+        }
+    },
+    {
+        "id": "5",
+        "user": {
+            "id": "u6",
+            "name": "Emma Stone",
+            "image": "https://raw.githubusercontent.com/KrystalZhang612/images-attachments-collection/main/emma%20stone.png", 
+            "status": "Hnaging out with girls tonight yeahhhhhh!! "
+        },
+        "lastMessage": {
+            "id": "m5",
+            "text": "omg you've seen my new movie Cruella? How was that! Did you like it?",
+            "createdAt": "2022-10-11T14:48:00.000Z"
+        }
+    },
+    {
+        "id": "6",
+        "user": {
+            "id": "u7",
+            "name": "Blake Lively",
+            "image": "https://raw.githubusercontent.com/KrystalZhang612/images-attachments-collection/main/blake%20lively.png", 
+            "status": "I've been so lucky to work with such great people: people that are such hard workers and have such a respect and appreciation for one another."
+        },
+        "lastMessage": {
+            "id": "m6",
+            "text": "We should defintely hangout! What about barbeque on Friday?",
+            "createdAt": "2022-10-10T14:48:00.000Z"
+        }
+    },
+    {
+        "id": "7",
+        "user": {
+            "id": "u8",
+            "name": "HarleyQ",
+            "image": "https://raw.githubusercontent.com/KrystalZhang612/images-attachments-collection/main/harley.png", 
+            "status": "Do you know what a harlequin is? A harlequin’s role is to serve. It’s nothing without a master. And no one gives two sh*ts who we are beyond that."
+        },
+        "lastMessage": {
+            "id": "m7",
+            "text": "PARTY ON FRIDAY NIGHT! MEET MY NEW GF IVYYYY!!!! see ya!",
+            "createdAt": "2022-10-09T14:30:00.000Z"
+        }
+    },
+    {
+        "id": "8",
+        "user": {
+            "id": "u9",
+            "name": "Andrew Garfield",
+            "image": "https://raw.githubusercontent.com/KrystalZhang612/images-attachments-collection/main/andrew%20garfield.png", 
+            "status": "I worked in a Starbucks that wasn't very popular - before the big coffee boom in London. My boss didn't take kindly to my incessant sitting."
+        },
+        "lastMessage": {
+            "id": "m8",
+            "text": "Hey dear! This Christmas will be your turning point! Don't worry, you will make it.",
+            "createdAt": "2020-09-27T15:40:00.000Z"
+        }
+    },
+    {
+        "id": "9",
+        "user": {
+            "id": "u9",
+            "name": "Venom",
+            "image": "https://raw.githubusercontent.com/KrystalZhang612/images-attachments-collection/main/venom.png", 
+            "status": "In fact, you go anywhere in this city, preying on innocent people, and we will find you and we will eat both of your arms and then both of your legs. And then we will eat your face right off your head."
+        },
+        "lastMessage": {
+            "id": "m8",
+            "text": "You are so far my fav human friend. We should together travel to space sometimes!",
+            "createdAt": "2020-09-27T15:40:00.000Z"
+        }
+    },
+    {
+        "id": "10",
+        "user": {
+            "id": "u9",
+            "name": "Kesha",
+            "image": "https://raw.githubusercontent.com/KrystalZhang612/images-attachments-collection/main/kesha.png", 
+            "status": "I think I am really irreverent and I pretty much just talk to and about men the way men talk to and about women."
+        },
+        "lastMessage": {
+            "id": "m8",
+            "text": "You got it girl! You can always count on me! I got your back!",
+            "createdAt": "2020-09-27T15:40:00.000Z"
+        }
+    },
+    {
+        "id": "11",
+        "user": {
+            "id": "u9",
+            "name": "San Francisco",
+            "image": "https://raw.githubusercontent.com/KrystalZhang612/images-attachments-collection/main/san%20francisco.png", 
+            "status": "Get access to a complete and always updated list of arts and cultural events taking place in San Francisco. Our City has much to offer and this guide will help you identify events that suits every passion or interest."
+        },
+        "lastMessage": {
+            "id": "m8",
+            "text": "Krystal, Welcome back home.",
+            "createdAt": "2020-09-27T15:40:00.000Z"
+        }
+    }
+]
