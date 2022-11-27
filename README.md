@@ -46,7 +46,8 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
 [Expo Icons](https://icons.expo.fyi)<br/>
 [JavaScript](https://www.javascript.com)<br/>
 <div>
-  <img src= "https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/assets/expo%20icon.png" width = "60" height ="60" title = "EXPO"/> 
+  <img src= "https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/assets/expo%20icon.png" width = "60" height ="60" title = "EXPO"/>&nbsp; 
+  <img src ="https://github.com/devicons/devicon/blob/master/icons/xcode/xcode-original.svg" width = "60" height ="60" title = "XCODE"/>&nbsp; 
 </div>
 
 
