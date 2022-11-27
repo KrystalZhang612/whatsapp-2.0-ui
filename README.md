@@ -29,8 +29,7 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
 | -------          | ------------------ |
 | iOS 10+          | :white_check_mark: |
 | < iOS 10         | :x:                |
-| macOS Mojave     | ✅                 |
-| macOS Monterey   | ✅                 |
+| Android          | ✅                 |
 # Method to Run & Test the Project Locally
 
 
