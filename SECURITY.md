@@ -5,5 +5,5 @@
 | -------          | ------------------ |
 | iOS 10+          | :white_check_mark: |
 | < iOS 10         | :x:                |
-| macOS Mojave     | ✅                 |
-| macOS Monterey   | ✅                 |
+| Android          | ✅                 |
+| Expo Web Server  | :x:                |               
