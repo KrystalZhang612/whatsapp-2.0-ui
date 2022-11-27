@@ -24,6 +24,14 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
 [Tags and Topics]()<br/> 
 # Contribution
 [Author]()
+# Compatibility
+|   OS             | Supported          |
+| -------          | ------------------ |
+| iOS 10+          | :white_check_mark: |
+| < iOS 10         | :x:                |
+| macOS Mojave     | ✅                 |
+| macOS Monterey   | ✅                 |
+
 
 
 
