@@ -50,6 +50,7 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
   <img src ="https://github.com/devicons/devicon/blob/master/icons/xcode/xcode-original.svg" width = "60" height ="60" title = "XCODE"/>&nbsp; 
   <img src ="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" width = "60" height ="60" title = "VSCODE"/>&nbsp; 
   <img src ="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" width = "60" height ="60" title = "REACT"/>&nbsp; 
+  <img src ="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg"  width = "60" height ="60" title = "javascript"/>&nbsp; 
 </div>
 
 
