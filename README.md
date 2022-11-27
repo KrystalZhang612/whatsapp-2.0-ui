@@ -69,10 +69,39 @@ Press i to open iOS Simulator.<br/>
 Successfully started Expo Developer Tool Metro Bundler with IOS Simulator.<br/> 
 [started expo with ios simulator.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/started%20expo%20with%20ios%20simulator.png)<br/>
 # Synchronous Developing Notes
-
-
-
-
+## ***Build the chat list item:***
+Insert sample chat container, chat content and customize styles in [/ChatListItem/index.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/src/components/ChatListItem/index.js):
+```JavaScript
+  <View style={styles.content}>
+                <View style={styles.row}>
+                    <Text style={styles.name}>Scarlett</Text>
+                    <Text style={styles.subTitle}>8:30</Text>
+...
+ const styles = StyleSheet.create({
+    container: {
+        flexDirection: 'row',
+        marginHorizontal: 10,
+        marginVertical: 5,
+        height: 70,
+...
+```
+[chat list items created.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/chat%20list%20items%20created.png)<br/>
+Add props:
+```JavaScript 
+const ChatListItem = (props) => {
+    console.log(props);
+```
+[fetched props in log.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/fetched%20props%20in%20log.png)<br/>
+Import chat list of profile pictures into [ChatsScreen.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/src/screens/ChatsScreen.js):
+```JavaScript 
+import { View, Text, FlatList } from 'react-native'; import chats from '../../assets/data/chats.json'; import ChatListItem from '../components/ChatListItem'; const ChatsScreen = () => {
+    return (<FlatList data={chats} renderItem={({ item }) =>
+<ChatListItem chat={item} />} />
+); };
+export default ChatsScreen;
+```
+[list of chatters profiles showed up.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/list%20of%20chatters%20profiles%20showed%20up.png)<br/>
+Remove `align-item: center` in [App.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/App.js)
 
 
 
@@ -83,8 +112,9 @@ Successfully started Expo Developer Tool Metro Bundler with IOS Simulator.<br/>
 Image Error: `Image source = {{uri:’...’}}` not displaying image on iOS Bundle. DEBUGGING: https://github... URL prefix blocked, click Download in github image to obtain a different downloading url. Use CMD+D to inspect elements. SHIFT+ i to switch iOS simulators.
 # Testing Result
 [started expo with ios simulator.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/started%20expo%20with%20ios%20simulator.png)<br/>
-
-
+[chat list items created.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/chat%20list%20items%20created.png)<br/>
+[fetched props in log.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/fetched%20props%20in%20log.png)<br/>
+[list of chatters profiles showed up.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/list%20of%20chatters%20profiles%20showed%20up.png)<br/>
 
 
 
