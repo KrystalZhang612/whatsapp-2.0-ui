@@ -42,8 +42,12 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
 [Vscode](https://code.visualstudio.com/updates/v1_73)<br/> 
 [React-Native v0.70.5](https://reactnative.dev/)<br/> 
 [Day.js 2kB](https://day.js.org/)<br/> 
-[Ether Creative Shadow Generator](https://ethercreative.github.io/react-native-shadow-generator/ Expo Icons https://icons.expo.fyi)<br/>
-[JavaScript]()<br/>
+[Ether Creative Shadow Generator](https://ethercreative.github.io/react-native-shadow-generator/)<br/>
+[Expo Icons](https://icons.expo.fyi)<br/>
+[JavaScript](https://www.javascript.com)<br/>
+<div>
+  <img src= "https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/assets/expo%20icon.png" width = "60" height ="60" title = "EXPO"/> 
+</div>
 
 
 
