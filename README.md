@@ -16,14 +16,14 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
 
 
 # Build
-[Method to Run & Test the Project Locally]()<br/> 
-[Prerequisites & Setups](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md#prerequisites--setups)<br/> 
-[Debugging&Troubleshooting](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md#debuggingtroubleshooting)<br/> 
-[Synchronous Developing Notes](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md#synchronous-developing-notes)<br/> 
-[Testing Result](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md#testing-result)<br/> 
-[Tags and Topics](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md#tags-and-topics)<br/> 
+[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
+[Prerequisites & Setups](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/README.md#prerequisites--setups)<br/> 
+[Debugging&Troubleshooting](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/README.md#debuggingtroubleshooting)<br/> 
+[Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/README.md#synchronous-developing-notes)<br/> 
+[Testing Result](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/README.md#testing-result)<br/> 
+[Tags and Topics](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/README.md#tags-and-topics)<br/> 
 # Contribution
-[Author](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md#author)
+[Author](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/README.md#author)
 # Compatibility
 |   OS             | Supported          |
 | -------          | ------------------ |
