@@ -20,7 +20,7 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
 [Prerequisites & Setups]()<br/> 
 [Debugging&Troubleshooting]()<br/> 
 [Synchronous Developing Notes]()<br/> 
-[Testing Result]()<br/> 
+[Testing Result](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md#testing-result)<br/> 
 [Tags and Topics]()<br/> 
 # Contribution
 [Author]()
