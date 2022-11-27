@@ -37,6 +37,13 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
 ### Open the project with Vscode, run to test WhatsApp 2.0 UI with `npm start`
 ### Have Xcode Simulator installed, press `i` to run Metro iOS bundle.
 # 🛠️ Developing Languages, Tools, and Techniques Needed
+[Expo](https://docs.expo.dev/get-started/create-a-new-app/)<br/> 
+[Xcode iOS 16.1 iPhone 14 Simulator](https://developer.apple.com/xcode/)<br/> 
+[Vscode](https://code.visualstudio.com/updates/v1_73)<br/> 
+[React-Native v0.70.5](https://reactnative.dev/)<br/> 
+[Day.js 2kB](https://day.js.org/)<br/> 
+[Ether Creative Shadow Generator](https://ethercreative.github.io/react-native-shadow-generator/ Expo Icons https://icons.expo.fyi)<br/>
+[JavaScript]()<br/>
 
 
 
