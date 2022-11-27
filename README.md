@@ -17,7 +17,7 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
 
 # Build
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
-[Prerequisites & Setups]()<br/> 
+[Prerequisites & Setups](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md#prerequisites--setups)<br/> 
 [Debugging&Troubleshooting]()<br/> 
 [Synchronous Developing Notes]()<br/> 
 [Testing Result](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md#testing-result)<br/> 
@@ -68,6 +68,14 @@ npm start
 Press i to open iOS Simulator.<br/> 
 Successfully started Expo Developer Tool Metro Bundler with IOS Simulator.<br/> 
 [started expo with ios simulator.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/started%20expo%20with%20ios%20simulator.png)<br/>
+# Synchronous Developing Notes
+
+
+
+
+
+
+
 
 # Testing Result
 [started expo with ios simulator.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/started%20expo%20with%20ios%20simulator.png)<br/>
