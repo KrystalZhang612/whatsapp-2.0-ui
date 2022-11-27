@@ -16,7 +16,7 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
 
 
 # Build
-[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
+[Method to Run & Test the Project Locally]()<br/> 
 [Prerequisites & Setups](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md#prerequisites--setups)<br/> 
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md#debuggingtroubleshooting)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md#synchronous-developing-notes)<br/> 
