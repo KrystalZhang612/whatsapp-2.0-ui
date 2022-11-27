@@ -11,6 +11,5 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
   <img src ="https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/WhatsApp%202.0%20App%20UI%20Overview-1.png" width="380" height="848.818181">&nbsp; 
   <img src = "https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/WhatsApp%202.0%20App%20UI%20Overview-2.png" width="380" height="848.818181">
   <img src = "https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/WhatsApp%202.0%20App%20UI%20Overview-3.png"  width="380" height="848.818181">&nbsp; 
-  
-
+  <img src ="https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/WhatsApp%202.0%20App%20UI%20Overview-4.png"  width="380" height="848.818181">
 </p> 
