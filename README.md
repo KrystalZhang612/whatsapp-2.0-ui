@@ -69,15 +69,18 @@ Press i to open iOS Simulator.<br/>
 Successfully started Expo Developer Tool Metro Bundler with IOS Simulator.<br/> 
 [started expo with ios simulator.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/started%20expo%20with%20ios%20simulator.png)<br/>
 # Synchronous Developing Notes
+
+
+
+
+
+
+
+
+
+
 # Debugging&Troubleshooting
-
-
-
-
-
-
-
-
+Image Error: `Image source = {{uri:’...’}}` not displaying image on iOS Bundle. DEBUGGING: https://github... URL prefix blocked, click Download in github image to obtain a different downloading url. Use CMD+D to inspect elements. SHIFT+ i to switch iOS simulators.
 # Testing Result
 [started expo with ios simulator.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/started%20expo%20with%20ios%20simulator.png)<br/>
 
