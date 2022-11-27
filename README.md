@@ -101,12 +101,111 @@ import { View, Text, FlatList } from 'react-native'; import chats from '../../as
 export default ChatsScreen;
 ```
 [list of chatters profiles showed up.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/list%20of%20chatters%20profiles%20showed%20up.png)<br/>
-Remove `align-item: center` in [App.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/App.js)
-
-
-
-
-
+Remove `align-item: center` in [App.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/App.js)<br/>
+[chats all popped up.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/chats%20all%20popped%20up.png)<br/>
+Open another terminal and install Day.js by running:
+```bash 
+npm install dayjs
+```
+## ***Build chat screen:***
+Render messages in [ChatScreen.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/src/screens/ChatScreen.js):
+```JavaScript 
+ <ImageBackground source={bg} style={styles.bg}>
+            <FlatList
+                data={messages}
+                renderItem={({ item }) => <Message message={item} />}
+                style={styles.list}
+                inverted
+            />
+        </ImageBackground>
+);
+```
+[text messages are rendered.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/text%20messages%20are%20rendered.png)<br/>
+render both text contents and time in [/Message/index.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/src/components/Message/index.js):
+```JavaScript 
+<View style= {styles.container}>
+            <Text>{message.text}</Text>
+            <Text style={styles.time}>{message.createdAt}</Text>
+```
+[text content and time rendered.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/text%20content%20and%20time%20rendered.png)<br/>
+Set colors and flex positions to distinguish from sender and receiver:
+```JavaScript 
+ <View style={[styles.container, {
+            backgroundColor: isMessage() ? '#DCF8C5' : 'white',
+            alignSelf: isMessage() ? 'flex-end' : 'flex-start'
+```
+[sender and receiver distinguished.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/sender%20and%20reciever%20distinguished.png)<br/>
+Add background shadow and rearrange messages order:
+```JavaScript 
+  //shadows
+        shadowColor: '#000',
+        shadowOffset: {
+            width: 0,
+height: 1, },
+        shadowOpacity: 0.18,
+        shadowRadius: 1.0,
+        elevation: 1,
+```
+[modified order and shadow added.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/modified%20order%20and%20shadow%20added.png)<br/>
+Design text input box and icons in [/InputBox/index.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/src/navigation/index.js):
+```JavaScript 
+container: {
+        flexDirection: 'row',
+        backgroundColor: 'whitesmoke',
+        padding: 5,
+}, input: {
+        flex: 1,
+        backgroundColor: 'white',
+        padding: 5,
+        paddingHorizontal: 10,
+        borderRadius: 50,
+        borderColor: 'lightgray',
+        borderWidth: StyleSheet.hairlineWidth,
+```
+[text input box designed.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/text%20input%20box%20designed.png)<br/>
+Set up sending state as console:
+```JavaScript 
+ //state data
+    const [newMessage, setNewMessage] = useState('');
+    const onSend = () => {
+        console.warn('Sending a new message:', newMessage);
+        setNewMessage('');
+```
+Now sending state console with the sending message content showed when click send button:<br/>
+[sending state console showed.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/sending%20state%20console%20showed.png)<br/>
+## ***React navigation:***
+Install dependencies by running these command in vscode:
+```bash 
+npx expo install @react-navigation/native @react-navigation/native-stack @react-navigation/bottom-tabs react-native-screens react-native-safe-area-context
+```
+[navigation bar displayed.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/navigaton%20bar%20displayed.png)<br/>
+Import different navigation bars and their icons:<br/>
+[navigation bars imported.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/navigation%20bars%20imported.png)<br/>
+Import different navigation screen bars in [MainTabNavigator.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/src/navigation/MainTabNavigator.js):
+```JavaScript 
+ <Tab.Screen
+            name="Status"
+                component={NotImplementedScreen}
+                options={{
+                    tabBarIcon: ({ color, size }) => (
+                 <Ionicons name="logo-whatsapp" size={size}
+color={color} />
+...
+```
+[different navigator screens.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/different%20navigator%20screens.png)<br/>
+## ***Build Contact screen:***
+Use `onPress` method to be redirected to contacts:
+```JavaScript
+ headerRight: () => (
+            <Entypo
+           onPress={() => navigation.navigate("Contacts")}
+                     name="new-message"
+                     size={18}
+                     color={'royalblue'}
+                     style={{ marginRight: 15 }}
+```
+Now click the button on right-top, contact list showed:<br/>
+[contact list showed.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/contact%20list%20showed.png)<br/> 
 
 # Debugging&Troubleshooting
 Image Error: `Image source = {{uri:’...’}}` not displaying image on iOS Bundle. DEBUGGING: https://github... URL prefix blocked, click Download in github image to obtain a different downloading url. Use CMD+D to inspect elements. SHIFT+ i to switch iOS simulators.
@@ -115,6 +214,23 @@ Image Error: `Image source = {{uri:’...’}}` not displaying image on iOS Bund
 [chat list items created.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/chat%20list%20items%20created.png)<br/>
 [fetched props in log.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/fetched%20props%20in%20log.png)<br/>
 [list of chatters profiles showed up.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/list%20of%20chatters%20profiles%20showed%20up.png)<br/>
+[text content and time rendered.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/text%20content%20and%20time%20rendered.png)<br/>
+[chats all popped up.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/chats%20all%20popped%20up.png)<br/>
+[text messages are rendered.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/text%20messages%20are%20rendered.png)<br/>
+[sender and receiver distinguished.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/sender%20and%20reciever%20distinguished.png)<br/>
+[modified order and shadow added.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/modified%20order%20and%20shadow%20added.png)<br/>
+[text input box designed.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/text%20input%20box%20designed.png)<br/>
+[sending state console showed.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/sending%20state%20console%20showed.png)<br/>
+[navigation bar displayed.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/navigaton%20bar%20displayed.png)<br/>
+[navigation bars imported.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/navigation%20bars%20imported.png)<br/>
+[different navigator screens.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/different%20navigator%20screens.png)<br/>
+[contact list showed.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/contact%20list%20showed.png)<br/> 
+
+
+
+
+
+
 
 
 
