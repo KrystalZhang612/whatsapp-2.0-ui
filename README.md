@@ -66,7 +66,7 @@ npm start
 ```
 Press i to open iOS Simulator.<br/> 
 Successfully started Expo Developer Tool Metro Bundler with IOS Simulator.<br/> 
-[started expo with ios simulator.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/started%20expo%20with%20ios%20simulator.png)<br/>
+[started expo with ios simulator.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/started%20expo%20with%20ios%20simulator.PNG)<br/>
 # Synchronous Developing Notes
 ## ***Build the chat list item:***
 Insert sample chat container, chat content and customize styles in [/ChatListItem/index.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/src/components/ChatListItem/index.js):
@@ -84,13 +84,13 @@ Insert sample chat container, chat content and customize styles in [/ChatListIte
         height: 70,
 ...
 ```
-[chat list items created.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/chat%20list%20items%20created.png)<br/>
+[chat list items created.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/chat%20list%20items%20created.PNG)<br/>
 Add props:
 ```JavaScript 
 const ChatListItem = (props) => {
     console.log(props);
 ```
-[fetched props in log.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/fetched%20props%20in%20log.png)<br/>
+[fetched props in log.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/fetched%20props%20in%20log.PNG)<br/>
 Import chat list of profile pictures into [ChatsScreen.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/src/screens/ChatsScreen.js):
 ```JavaScript 
 import { View, Text, FlatList } from 'react-native'; import chats from '../../assets/data/chats.json'; import ChatListItem from '../components/ChatListItem'; const ChatsScreen = () => {
@@ -99,9 +99,9 @@ import { View, Text, FlatList } from 'react-native'; import chats from '../../as
 ); };
 export default ChatsScreen;
 ```
-[list of chatters profiles showed up.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/list%20of%20chatters%20profiles%20showed%20up.png)<br/>
+[list of chatters profiles showed up.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/list%20of%20chatters%20profiles%20showed%20up.PNG)<br/>
 Remove `align-item: center` in [App.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/App.js)<br/>
-[chats all popped up.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/chats%20all%20popped%20up.png)<br/>
+[chats all popped up.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/chats%20all%20popped%20up.PNG)<br/>
 Open another terminal and install Day.js by running:
 ```bash 
 npm install dayjs
@@ -119,21 +119,21 @@ Render messages in [ChatScreen.js](https://github.com/KrystalZhang612/WhatsApp-2
         </ImageBackground>
 );
 ```
-[text messages are rendered.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/text%20messages%20are%20rendered.png)<br/>
+[text messages are rendered.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/text%20messages%20are%20rendered.PNG)<br/>
 render both text contents and time in [/Message/index.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/src/components/Message/index.js):
 ```JavaScript 
 <View style= {styles.container}>
             <Text>{message.text}</Text>
             <Text style={styles.time}>{message.createdAt}</Text>
 ```
-[text content and time rendered.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/text%20content%20and%20time%20rendered.png)<br/>
+[text content and time rendered.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/text%20content%20and%20time%20rendered.PNG)<br/>
 Set colors and flex positions to distinguish from sender and receiver:
 ```JavaScript 
  <View style={[styles.container, {
             backgroundColor: isMessage() ? '#DCF8C5' : 'white',
             alignSelf: isMessage() ? 'flex-end' : 'flex-start'
 ```
-[sender and receiver distinguished.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/sender%20and%20reciever%20distinguished.png)<br/>
+[sender and receiver distinguished.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/sender%20and%20reciever%20distinguished.PNG)<br/>
 Add background shadow and rearrange messages order:
 ```JavaScript 
   //shadows
@@ -145,7 +145,7 @@ height: 1, },
         shadowRadius: 1.0,
         elevation: 1,
 ```
-[modified order and shadow added.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/modified%20order%20and%20shadow%20added.png)<br/>
+[modified order and shadow added.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/modified%20order%20and%20shadow%20added.PNG)<br/>
 Design text input box and icons in [/InputBox/index.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/src/navigation/index.js):
 ```JavaScript 
 container: {
@@ -161,7 +161,7 @@ container: {
         borderColor: 'lightgray',
         borderWidth: StyleSheet.hairlineWidth,
 ```
-[text input box designed.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/text%20input%20box%20designed.png)<br/>
+[text input box designed.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/text%20input%20box%20designed.PNG)<br/>
 Set up sending state as console:
 ```JavaScript 
  //state data
@@ -171,13 +171,13 @@ Set up sending state as console:
         setNewMessage('');
 ```
 Now sending state console with the sending message content showed when click send button:<br/>
-[sending state console showed.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/sending%20state%20console%20showed.png)<br/>
+[sending state console showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/sending%20state%20console%20showed.PNG)<br/>
 ## ***React navigation:***
 Install dependencies by running these command in vscode:
 ```bash 
 npx expo install @react-navigation/native @react-navigation/native-stack @react-navigation/bottom-tabs react-native-screens react-native-safe-area-context
 ```
-[navigation bar displayed.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/navigaton%20bar%20displayed.png)<br/>
+[navigation bar displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/navigaton%20bar%20displayed.PNG)<br/>
 Import different navigation bars and their icons:<br/>
 [navigation bars imported.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/navigation%20bars%20imported.png)<br/>
 Import different navigation screen bars in [MainTabNavigator.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/src/navigation/MainTabNavigator.js):
