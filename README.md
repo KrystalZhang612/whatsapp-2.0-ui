@@ -179,7 +179,7 @@ npx expo install @react-navigation/native @react-navigation/native-stack @react-
 ```
 [navigation bar displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/navigaton%20bar%20displayed.PNG)<br/>
 Import different navigation bars and their icons:<br/>
-[navigation bars imported.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/navigation%20bars%20imported.png)<br/>
+[navigation bars imported.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/navigation%20bars%20imported.PNG)<br/>
 Import different navigation screen bars in [MainTabNavigator.js](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/src/navigation/MainTabNavigator.js):
 ```JavaScript 
  <Tab.Screen
@@ -191,7 +191,7 @@ Import different navigation screen bars in [MainTabNavigator.js](https://github.
 color={color} />
 ...
 ```
-[different navigator screens.PNG](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/different%20navigator%20screens.png)<br/>
+[different navigator screens.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/different%20navigator%20screens.PNG)<br/>
 ## ***Build Contact screen:***
 Use `onPress` method to be redirected to contacts:
 ```JavaScript
