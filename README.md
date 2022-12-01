@@ -4,14 +4,14 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
 
 ⏬
 
-### ***Please carefully read [LICENSE.md](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/LICENSE) about the Open Source restrictions and the personal use policy of this project under [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html), any commericial uses on this project by other than the owner [@KrystalZhang612](https://github.com/KrystalZhang612) or the authorized users and organizations, including unauthorized modifications, forks, pull requests, and other commercial-related uses will be subjected to copyright violation with sebsequent legal concerns.***
+### ***Please carefully read [LICENSE.md](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/LICENSE) about the Open Source restrictions and the personal use policy of this project under [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html), any commericial uses on this project by other than the owner [@KrystalZhang612](https://github.com/KrystalZhang612) or the authorized users and organizations, will be subjected to copyright violation with sebsequent legal potential concerns.***
 
 ## WhatsApp 2.0 App Front-End-UI Overview:
 <p align ="center">
-  <img src ="https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/WhatsApp%202.0%20App%20UI%20Overview-1.png" width="380" height="848.818181">&nbsp; 
-  <img src = "https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/WhatsApp%202.0%20App%20UI%20Overview-2.png" width="380" height="848.818181">
-  <img src = "https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/WhatsApp%202.0%20App%20UI%20Overview-3.png"  width="380" height="848.818181">&nbsp; 
-  <img src ="https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/WhatsApp%202.0%20App%20UI%20Overview-4.png"  width="380" height="848.818181">
+  <img src ="https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/WhatsApp%202.0%20App%20UI%20Overview-1.PNG" width="380" height="848.818181">&nbsp; 
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/WhatsApp%202.0%20App%20UI%20Overview-2.PNG" width="380" height="848.818181">
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/WhatsApp%202.0%20App%20UI%20Overview-3.PNG"  width="380" height="848.818181">&nbsp; 
+  <img src ="https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/WhatsApp%202.0%20App%20UI%20Overview-4.PNG"  width="380" height="848.818181">
 </p> 
 
 
@@ -46,7 +46,6 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
 [Expo Icons](https://icons.expo.fyi)<br/>
 [JavaScript](https://www.javascript.com)<br/>
 <div>
-  <img src= "https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/assets/expo%20icon.png" width = "60" height ="60" title = "EXPO"/>&nbsp; 
   <img src ="https://github.com/devicons/devicon/blob/master/icons/xcode/xcode-original.svg" width = "60" height ="60" title = "XCODE"/>&nbsp; 
   <img src ="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" width = "60" height ="60" title = "VSCODE"/>&nbsp; 
   <img src ="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" width = "60" height ="60" title = "REACT"/>&nbsp; 
