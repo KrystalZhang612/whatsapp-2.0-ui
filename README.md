@@ -212,42 +212,20 @@ Image Error: `Image source = {{uri:’...’}}` not displaying image on iOS Bund
 <p align = "center">
   <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/started%20expo%20with%20ios%20simulator.PNG" width = "380" height = "848.81818">&nbsp;
   <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/chat%20list%20items%20created.PNG" width = "380" height = "848.81818">&nbsp;
-  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/fetched%20props%20in%20log.PNG" width = "380" height = "848.81818">&nbsp;
-  <img src = 
-
-
-[list of chatters profiles showed up.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/list%20of%20chatters%20profiles%20showed%20up.PNG)
-
-
-[chats all popped up.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/chats%20all%20popped%20up.PNG)
-
-
-[text messages are rendered.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/text%20messages%20are%20rendered.PNG)
-
-
-[text content and time rendered.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/text%20content%20and%20time%20rendered.PNG)
-
-[sender and receiver distinguished.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/sender%20and%20reciever%20distinguished.PNG)
-
-[modified order and shadow added.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/modified%20order%20and%20shadow%20added.PNG)
-
-
-[text input box designed.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/text%20input%20box%20designed.PNG)
-
-
-[sending state console showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/sending%20state%20console%20showed.PNG)
-
-[navigation bar displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/navigaton%20bar%20displayed.PNG)
-
-
-[navigation bars imported.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/navigation%20bars%20imported.PNG)
-
-
-
-[different navigator screens.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/different%20navigator%20screens.PNG)<
-
-
-[contact list showed.PNG](https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/contact%20list%20showed.PNG)
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/fetched%20props%20in%20log.PNG" >&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/list%20of%20chatters%20profiles%20showed%20up.PNG" width = "380" height = "848.81818">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/chats%20all%20popped%20up.PNG" width = "380" height = "848.81818">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/text%20messages%20are%20rendered.PNG" width = "380" height = "848.81818">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/text%20content%20and%20time%20rendered.PNG" width = "380" height = "848.81818">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/sender%20and%20reciever%20distinguished.PNG" width = "380" height = "848.81818">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/modified%20order%20and%20shadow%20added.PNG" width = "380" height = "848.81818">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/text%20input%20box%20designed.PNG" width = "380" height = "848.81818">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/sending%20state%20console%20showed.PNG" width = "380" height = "848.81818">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/navigaton%20bar%20displayed.PNG" width = "380" height = "848.81818">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/navigation%20bars%20imported.PNG" width = "380" height = "848.81818">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/different%20navigator%20screens.PNG" width = "380" height = "848.81818">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-WhatsApp-2.0-App-UI/blob/main/testing-result-WhatsApp2.0/contact%20list%20showed.PNG" width = "380" height = "848.81818">&nbsp;
+</p>
 
 
 
