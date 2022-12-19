@@ -33,6 +33,7 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
 | Expo Web Server  | :x:                |
 # Method to Run & Test the Project Locally
 ### Download the entire project to localhost. 
+### Run `npm install` to initialize node.js
 ### Download needed dependencies and extension tools refer to [README](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/README.md)
 ### Open the project with Vscode, run to test WhatsApp 2.0 UI with `npm start`
 ### Have Xcode Simulator installed, press `i` to run Metro iOS bundle.
