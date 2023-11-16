@@ -4,7 +4,7 @@ A clone of the popular Realtime Chat mobile applications WhatsApp in React Nativ
 
 ⏬
 
-### ***Please carefully read [LICENSE.md](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/LICENSE) about the Open Source restrictions and the personal use policy of this project under [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html), any commericial uses on this project by other than the owner [@KrystalZhang612](https://github.com/KrystalZhang612) or the authorized users and organizations, will be subjected to copyright violation with sebsequent legal potential concerns.***
+### ***Please carefully read [LICENSE.md](https://github.com/KrystalZhang612/WhatsApp-2.0-App-UI/blob/main/LICENSE) about the Open Source restrictions and the personal use policy of this project under [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html), any commercial uses on this project by other than the owner [@KrystalZhang612](https://github.com/KrystalZhang612) or the authorized users and organizations, will be subjected to copyright violation with subsequent legal potential concerns.***
 
 ## WhatsApp 2.0 App Front-End-UI Overview:
 <p align ="center">
@@ -234,6 +234,9 @@ Image Error: `Image source = {{uri:’...’}}` not displaying image on iOS Bund
 
 # Tags and Topics
 vscode, ui, front-end-ui, javascript, whatsapp-2.0, realtime-chatting-app, react-native, expo-go, xcode, ios-simulator, metro-bundling, dayjs, npm, npx. 
+
+# Dependabot security updates has pulled requests and helped update the dependencies with known vulnerabilities. 
+
 # Author
 Krystal Zhang
 https://github.com/KrystalZhang612<hr>
