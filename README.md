@@ -235,7 +235,7 @@ Image Error: `Image source = {{uri:’...’}}` not displaying image on iOS Bund
 # Tags and Topics
 vscode, ui, front-end-ui, javascript, whatsapp-2.0, realtime-chatting-app, react-native, expo-go, xcode, ios-simulator, metro-bundling, dayjs, npm, npx. 
 
-# Dependabot security updates has pulled requests and helped update the dependencies with known vulnerabilities. 
+# Dependabot security updates have pulled requests and updated the dependencies with known vulnerabilities. 
 
 # Author
 Krystal Zhang
